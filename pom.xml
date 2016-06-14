@@ -21,7 +21,7 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>http://10.4.45.12:8081/nexus/content/groups/public/</url>
+            <url>http://repo1.maven.org/maven2/</url>
         </repository>
     </repositories>
 
@@ -72,6 +72,8 @@
             <artifactId>mybatis</artifactId>
             <version>3.4.0</version>
         </dependency>
+
+
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
